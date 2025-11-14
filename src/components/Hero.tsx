@@ -28,12 +28,11 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Full Stack Developer & Creative Problem Solver
+            iOS Developer • AI/ML Engineer • Computer Vision Developer
           </p>
           
           <p className="text-lg text-muted-foreground/80 mb-12 max-w-2xl mx-auto">
-            Crafting elegant solutions with modern technologies. Specialized in building 
-            responsive web applications and delivering exceptional user experiences.
+            Crafting elegant solutions with modern technologies. Building intelligent mobile and web experiences powered by machine learning and real-time inference.
           </p>
 
           <div className="flex flex-wrap gap-4 justify-center mb-12">

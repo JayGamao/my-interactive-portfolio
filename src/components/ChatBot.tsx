@@ -30,25 +30,36 @@ const ChatBot = () => {
   }, [messages]);
 
   const handleSend = async () => {
-    if (!input.trim() || isLoading) return;
+  if (!input.trim() || isLoading) return;
 
-    const userMessage = input.trim();
-    setInput("");
-    setMessages((prev) => [...prev, { role: "user", content: userMessage }]);
-    setIsLoading(true);
+  const userMessage = input.trim();
+  setInput("");
+  setMessages((prev) => [...prev, { role: "user", content: userMessage }]);
+  setIsLoading(true);
 
-    // TODO: Replace with actual API call
-    setTimeout(() => {
-      setMessages((prev) => [
-        ...prev,
-        {
-          role: "assistant",
-          content: "This is a placeholder response. Connect your AI backend to enable real conversations!",
-        },
-      ]);
-      setIsLoading(false);
-    }, 1000);
-  };
+  try {
+    const res = await fetch("http://localhost:3001/chat", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ message: userMessage }),
+    });
+
+    const data = await res.json();
+
+    setMessages((prev) => [
+      ...prev,
+      { role: "assistant", content: data.reply },
+    ]);
+  } catch (error) {
+    setMessages((prev) => [
+      ...prev,
+      { role: "assistant", content: "Error connecting to AI backend." },
+    ]);
+  }
+
+  setIsLoading(false);
+};
+
 
   const handleKeyPress = (e: React.KeyboardEvent) => {
     if (e.key === "Enter" && !e.shiftKey) {

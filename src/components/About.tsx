@@ -1,26 +1,26 @@
-import { Code2, Palette, Rocket, Users } from "lucide-react";
+import { BrainCircuit, Smartphone, Image as Vision, Rocket } from "lucide-react";
 
 const About = () => {
   const highlights = [
     {
-      icon: Code2,
-      title: "Clean Code",
-      description: "Writing maintainable, scalable, and efficient code",
+      icon: Smartphone,
+      title: "iOS Development",
+      description: "Building intelligent, real-time iOS applications powered by Core ML and device sensors.",
     },
     {
-      icon: Palette,
-      title: "UI/UX Design",
-      description: "Creating beautiful and intuitive user interfaces",
+      icon: BrainCircuit,
+      title: "AI & Machine Learning",
+      description: "Specializing in object detection, model training, and on-device inference using YOLO and K-Means.",
+    },
+    {
+      icon: Vision,
+      title: "Computer Vision",
+      description: "Designing CV pipelines for defect detection, clustering, and real-time data processing.",
     },
     {
       icon: Rocket,
-      title: "Performance",
-      description: "Optimizing applications for speed and reliability",
-    },
-    {
-      icon: Users,
-      title: "Collaboration",
-      description: "Working effectively in team environments",
+      title: "End-to-End Engineering",
+      description: "Delivering polished, production-ready systems from concept to deployment.",
     },
   ];
 
@@ -34,13 +34,16 @@ const About = () => {
           
           <div className="glass-card rounded-2xl p-8 md:p-12 mb-12 animate-fade-in-up">
             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-              I'm a passionate developer with a strong foundation in both frontend and backend technologies. 
-              My journey in tech has been driven by curiosity and a desire to create meaningful digital experiences.
+              I'm a software developer specializing in iOS development, machine learning, 
+              and computer vision. I build intelligent systems that combine real-time inference, 
+              sensor data, and mobile-first engineering.
             </p>
+
             <p className="text-lg text-muted-foreground leading-relaxed">
-              With expertise in modern frameworks and a commitment to continuous learning, I transform 
-              ideas into robust, user-friendly applications. I believe in writing code that not only works 
-              but is also clean, efficient, and maintainable.
+              My experience includes developing Core ML–powered iOS apps, YOLOv12-based object detection 
+              pipelines, K-Means clustering engines, and full-stack web applications. I enjoy solving complex 
+              technical challenges, transforming ideas into functional products, and continuously expanding 
+              my expertise in AI and mobile development.
             </p>
           </div>
 

@@ -1,38 +1,45 @@
 import { Briefcase, Calendar } from "lucide-react";
 
 const Experience = () => {
-  const experiences = [
+    const experiences = [
     {
-      title: "Senior Full Stack Developer",
-      company: "Tech Innovations Inc.",
-      period: "2023 - Present",
-      description: "Leading development of cloud-based applications using React, Node.js, and AWS. Mentoring junior developers and implementing best practices.",
+      title: "Game Development Intern",
+      company: "Winnoven, Inc.",
+      period: "2022",
+      description:
+        "Assisted in game development tasks, debugging, and UI/UX refinement. Collaborated with the team on gameplay mechanics and design improvements.",
       achievements: [
-        "Reduced application load time by 40% through optimization",
-        "Led migration to microservices architecture",
-        "Implemented CI/CD pipelines improving deployment frequency",
+        "Recognized for strong performance, sincerity, and collaboration",
+        "Contributed to gameplay feature adjustments and visual refinements",
+        "Supported debugging and optimization of in-game interactions",
       ],
     },
+
     {
-      title: "Full Stack Developer",
-      company: "Digital Solutions Co.",
-      period: "2021 - 2023",
-      description: "Developed and maintained multiple web applications for enterprise clients using modern tech stack.",
+      title: "AI/ML & iOS Development Experience",
+      company: "Independent & Academic Projects",
+      period: "2023 – 2025",
+      description:
+        "Led the development of multiple machine learning, computer vision, and iOS-based systems involving real-time inference, object detection, and clustering.",
       achievements: [
-        "Built scalable REST APIs serving 100K+ daily requests",
-        "Implemented responsive designs improving mobile UX by 60%",
-        "Collaborated with cross-functional teams on product features",
+        "Developed a YOLOv12-based Coffee Bean Detection and Grading System with custom dataset training and high model accuracy",
+        "Built a real-time Color Clustering iOS App using optimized K-Means clustering and Firebase integration",
+        "Created a Core ML-powered Fall Detection App using accelerometer and gyroscope sensor data",
+        "Implemented ESP32-CAM Car Counter System using background subtraction and real-time data streaming",
+        "Developed Room Resort Booking Website with authentication, bookings, and admin dashboard using React and Firebase",
       ],
     },
+
     {
-      title: "Junior Developer",
-      company: "StartUp Labs",
-      period: "2020 - 2021",
-      description: "Contributed to various projects, focusing on frontend development and learning modern frameworks.",
+      title: "Researcher — Computer Vision",
+      company: "ICSTE 2025 (Ei Compendex, Scopus)",
+      period: "2025",
+      description:
+        "Conducted comparative study of YOLOv12 and Lightly Train pre-training methods for domain-specific object detection datasets.",
       achievements: [
-        "Developed reusable component library in React",
-        "Participated in code reviews and agile ceremonies",
-        "Integrated third-party APIs and payment systems",
+        "Authored and published research paper at ICSTE 2025",
+        "Performed dataset preprocessing, training, evaluation, and ablation analysis",
+        "Improved defect detection performance using optimized training strategies",
       ],
     },
   ];
