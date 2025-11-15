@@ -38,7 +38,7 @@ const ChatBot = () => {
   setIsLoading(true);
 
   try {
-    const res = await fetch("http://localhost:3001/chat", {
+    const res = await fetch("https://my-interactive-portfolio.onrender.com/chat", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ message: userMessage }),
