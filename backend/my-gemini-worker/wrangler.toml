@@ -3,3 +3,5 @@ main = "src/index.js"
 compatibility_date = "2025-01-01"
 [vars]
 GOOGLE_API_KEY = "YOUR_KEY_WILL_BE_OVERRIDDEN_BY_SECRET"
+[triggers]
+crons = ["* * * * *"]
