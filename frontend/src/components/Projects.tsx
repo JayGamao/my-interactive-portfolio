@@ -21,7 +21,7 @@ const isDisabled = (link: string) => {
 };
 
   useEffect(() => {
-    fetch("/src/projects.json")
+    fetch("/public/data/projects.json")
       .then((res) => res.json())
       .then((data) => setProjects(data));
   }, []);

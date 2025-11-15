@@ -1,0 +1,61 @@
+[
+  {
+    "id": 1,
+    "title": "Color Clustering iOS App",
+    "description": "An iOS application that extracts real-time color palettes using optimized K-Means clustering, on-device inference, and high-performance pixel sampling.",
+    "image": "/projects/color-clustering.png",
+    "tech": ["Swift", "K-Means", "Firebase", "Core Graphics"],
+    "github": "#",
+    "demo": "#",
+    "category": "iOS"
+  },
+  {
+    "id": 2,
+    "title": "Coffee Bean Object Detection & Grading System",
+    "description": "A computer vision pipeline that detects defects and grades Philippine coffee beans using YOLOv12, MobileNetV3-L, and EfficientNetV2 on a custom expert-validated dataset.",
+    "image": "/projects/coffee-grading.png",
+    "tech": ["YOLOv12", "Python", "PyTorch", "OpenCV"],
+    "github": "#",
+    "demo": "#",
+    "category": "AI/ML"
+  },
+  {
+    "id": 3,
+    "title": "Fall Detection iOS App",
+    "description": "A Core ML–powered safety application that identifies falls using motion sensor data and on-device ML inference with real-time alert triggers.",
+    "image": "/projects/fall-detection.png",
+    "tech": ["Swift", "Core ML", "Core Motion"],
+    "github": "#",
+    "demo": "#",
+    "category": "iOS"
+  },
+  {
+    "id": 4,
+    "title": "Room Resort Booking Website",
+    "description": "A full-stack resort room booking system with secure authentication, admin dashboard, and real-time data management.",
+    "image": "/projects/room-resort.png",
+    "tech": ["React", "Firebase Auth", "Prisma"],
+    "github": "https://github.com/JayGamao/resortPreng",
+    "demo": "#",
+    "category": "Full-Stack"
+  },
+  {
+    "id": 5,
+    "title": "Gym Management System",
+    "description": "A web-based system for membership tracking, subscription plans, attendance logs, and admin tools.",
+    "image": "/projects/gym-management.png",
+    "tech": ["React", "PostgreSQL", "Firebase"],
+    "github": "https://github.com/JayGamao/Kenko_Management_System",
+    "demo": "#",
+    "category": "Full-Stack"
+  },
+  {
+    "id": 6,
+    "title": "Car Counter System",
+    "description": "A real-time vehicle counting solution using ESP32-CAM, background subtraction, and computer vision.",
+    "image": "/projects/car-counter.png",
+    "tech": ["ESP32-CAM", "Computer Vision", "Python"],
+    "github": "#",
+    "demo": "#",
+    "category": "IoT/Hardware"
+  }]
