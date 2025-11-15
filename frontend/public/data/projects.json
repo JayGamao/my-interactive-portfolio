@@ -58,4 +58,16 @@
     "github": "#",
     "demo": "#",
     "category": "IoT/Hardware"
-  }]
+  },
+  {
+  "id": 7,
+  "title": "Personal Portfolio AI Chatbot",
+  "description": "An intelligent portfolio assistant built with Gemini 2.0 Flash, custom resume context, streaming responses, and a clean floating-chat UI. Supports real-time typing output, persona grounding, and dynamic Q&A based on my projects, skills, and certifications.",
+  "image": "/projects/chatbot.png",
+  "tech": ["React", "TypeScript", "Node.js", "Express", "Gemini 2.0 Flash", "Streaming API"],
+  "github": "https://github.com/JayGamao/my-interactive-portfolio",
+  "demo": "https://jaygamao.netlify.app",
+  "category": "AI/Full-Stack"
+}
+
+]
