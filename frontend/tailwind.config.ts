@@ -52,14 +52,6 @@ export default {
         "gradient-from": "hsl(var(--gradient-from))",
         "gradient-to": "hsl(var(--gradient-to))",
         "certificate-glow": "hsl(var(--certificate-glow))",
-        "nebula-purple": "hsl(var(--nebula-purple))",
-        "nebula-pink": "hsl(var(--nebula-pink))",
-        "nebula-blue": "hsl(var(--nebula-blue))",
-        "deep-space": "hsl(var(--deep-space))",
-        "cosmic-accent": "hsl(var(--cosmic-accent))",
-        "starlight": "hsl(var(--starlight))",
-        "spaceship-metal": "hsl(var(--spaceship-metal))",
-        "spaceship-glow": "hsl(var(--spaceship-glow))",
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -113,19 +105,6 @@ export default {
           "0%, 100%": { transform: "translateY(0px)" },
           "50%": { transform: "translateY(-20px)" },
         },
-        "nebula-pulse": {
-          "0%, 100%": { 
-            boxShadow: "0 0 40px hsl(var(--nebula-purple) / 0.4), 0 0 80px hsl(var(--nebula-pink) / 0.3)",
-          },
-          "50%": { 
-            boxShadow: "0 0 60px hsl(var(--nebula-purple) / 0.6), 0 0 120px hsl(var(--nebula-pink) / 0.5)",
-          },
-        },
-        "cosmic-drift": {
-          "0%": { backgroundPosition: "0% 50%" },
-          "50%": { backgroundPosition: "100% 50%" },
-          "100%": { backgroundPosition: "0% 50%" },
-        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -135,8 +114,6 @@ export default {
         "slide-in-right": "slide-in-right 0.5s ease-out",
         "glow-pulse": "glow-pulse 2s ease-in-out infinite",
         float: "float 6s ease-in-out infinite",
-        "nebula-pulse": "nebula-pulse 3s ease-in-out infinite",
-        "cosmic-drift": "cosmic-drift 10s ease-in-out infinite",
       },
     },
   },
