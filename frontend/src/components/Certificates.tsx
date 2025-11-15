@@ -23,7 +23,7 @@ const Certificates = () => {
 
   // Load JSON
   useEffect(() => {
-    fetch("/public/data/certificates.json")
+    fetch("/data/certificates.json")
       .then((res) => res.json())
       .then((data) => setCertificates(data));
   }, []);
