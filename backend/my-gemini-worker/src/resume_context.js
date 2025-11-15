@@ -1,4 +1,4 @@
-const text = `
+const text =`
 Name: Jonreff M. Gamao
 Nickname: Jay
 Sex: Male

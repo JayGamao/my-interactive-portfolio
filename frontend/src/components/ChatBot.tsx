@@ -38,7 +38,7 @@ const ChatBot = () => {
   setIsLoading(true);
 
   try {
-    const res = await fetch("https://my-gemini-worker.jonreff-gamao.workers.dev", {
+    const res = await fetch("https://my-gemini-worker.jonreff-gamao.workers.dev/", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ message: userMessage }),
@@ -59,6 +59,7 @@ const ChatBot = () => {
 
   setIsLoading(false);
 };
+
 
 
   const handleKeyPress = (e: React.KeyboardEvent) => {
