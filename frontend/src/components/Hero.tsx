@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import { Button } from "../components/ui/button";
 import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
 
 const Hero = () => {
@@ -55,7 +55,7 @@ const Hero = () => {
 
           <div className="flex gap-6 justify-center">
             <a 
-              href="https://github.com" 
+              href="https://github.com/JayGamao" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
@@ -63,7 +63,7 @@ const Hero = () => {
               <Github className="w-6 h-6" />
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/jonreff-gamao-a69074252/"
               target="_blank" 
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
@@ -71,7 +71,7 @@ const Hero = () => {
               <Linkedin className="w-6 h-6" />
             </a>
             <a 
-              href="mailto:contact@example.com"
+              href="mailto:jonreff.gamao@yahoo.com"
               className="text-muted-foreground hover:text-primary transition-colors"
             >
               <Mail className="w-6 h-6" />
